@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+input {
+    border: 1px solid #5f9341;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    box-sizing: border-box; /* This will ensure input won't extend passed body container ** remove to see difference */
+    padding: 10px;
+
+
+}
+
+button {
+    background-color: #5f9341;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+    padding: 0.8em 1em;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
