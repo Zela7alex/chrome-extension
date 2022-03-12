@@ -19,14 +19,19 @@ input {
 button {
     background-color: #5f9341;
     color: #fff;
-    display: flex;
-    flex-direction: column;
     margin-top: 0.5em;
     padding: 0.8em 1em;
-    border: none;
     font-weight: bold;
     cursor: pointer;
+    border: 1px solid #5f9341;
 }
+#delete-btn {
+    background-color: #fff;
+    color: #5f9341;
+    
+
+}
+
 
 ul {
     margin-top: 20px;
